@@ -23,7 +23,7 @@
 
   <div class="field">
     <%= f.label :Servidor %>
-    <%= f.collection_select :server_id, Server.all, :id, :nombre , :prompt => "Selecciona" %>
+    <%= f.collection_select :server_id, Server.all, :nombre, :nombre , :prompt => "Selecciona" %>
   </div>
 
   <div class="actions">
